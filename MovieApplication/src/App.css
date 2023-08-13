@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    /* background-color: lightblue; */
+    width: 100%;
+}
+.Type{
+    margin-top: 10px;
+}
+.box{
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px 20px;
+    margin: auto;
+    background-color: white;
+}
+.box{
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 60px;
+}
+
+.btn{
+    font-size: 22px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+.inp{
+    display: inline-block;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: large;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 25px auto;
+    /* background-color: lightcoral;   */
+    justify-content: space-between; 
+}
+.card{
+    padding: 8px;
+    margin:10px;
+    width: 25%;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.card img{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.card .movie-title{
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 920px) {
+    .card{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 690px) {
+
+
+    .cards{
+        flex-direction: column;
+       
+    }
+    .card{
+        margin: 10px auto;
+        width: 90%;
+    }
+}
