@@ -1,0 +1,12 @@
+*{
+  text-align: center;
+}
+p{
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+.head{
+  font-size: 20px;
+  color: rgb(124, 200, 225);
+}
