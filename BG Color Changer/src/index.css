@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    /* background-color: gray; */
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 50px;
+    /* background-color: white; */
+}
+.line button{
+    padding: 10px 20px;
+}
