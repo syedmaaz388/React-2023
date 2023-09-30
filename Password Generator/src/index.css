@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    padding: 50px;
+    width: 40%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.downButton{
+    display: flex;
+    margin-top: 20px;
+}
